@@ -48,5 +48,4 @@ $person = new MyPerson('Jess');
 $person->talk();
 echo $person->name; // This works because we haven't set the $name
                     // property to private.
-echo $person->hey;
 ?>
